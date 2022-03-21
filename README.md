@@ -36,3 +36,5 @@ A disadvantage could be that each submacro is not clearly defined and laid out s
 - How do these pros and cons apply to refactoring the original VBA script?
 In this particular case with the analysis of green stocks, we were able to compute the time it took to run the submacro prior to refactoring and after.  Prior to refactoring, the run times were 0.96875 seconds for 2017, and 0.94528 seconds for 2018. Some changes that were made included reducing the number of submacros and removing any lines of repetition/clutter. Following the changes, we were able to reduce the run time of these tables to under 0.9 seconds as seen below. In the future, Steve can use this file of coding to analyze larger files with ease and minimal changes.
 
+![VBA_Challenge_2017](https://user-images.githubusercontent.com/100329223/159199196-7b4d830a-9f8c-4aed-ac7a-62f9fb1d7c6d.png)
+![VBA_Challenge_2018](https://user-images.githubusercontent.com/100329223/159199202-035087d9-7148-4a57-8e93-2739ab7a1e68.png)
